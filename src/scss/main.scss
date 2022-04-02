@@ -1,4 +1,6 @@
+@forward './fragments/global';
 @forward './fragments/header';
+@forward './fragments/footer';
 @use './variables/colors';
 @use './variables/fonts';
 
