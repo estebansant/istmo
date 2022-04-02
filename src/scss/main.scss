@@ -1,24 +1,8 @@
+@forward './fragments/header';
 @use './variables/colors';
+@use './variables/fonts';
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-html{
-    font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth;
-    min-height: 100%;
-}
-body{
-    width: 100%;
-    overflow-x: hidden;
-    background: colors.$white;
-    background-attachment: fixed;
-}
 .title{
-    font-size: 2.4rem;
+    font-size: fonts.$title;
     color: colors.$main-blue;
 }
