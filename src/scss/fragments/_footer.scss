@@ -19,18 +19,26 @@
             align-items: center;
             justify-content: space-evenly;
             width: fit-content;
+            div{
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    color: colors.$main-blue;
+                    margin-left: 5px;
+                }
+            }
             a{
                 color: colors.$main-blue;
                 display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
                 align-items: center;
                 text-decoration: none;
                 p{
-                    font-size: fonts.$subtitle;
+                    font-size: 1.4rem;
                     font-weight: 500;
                     color: colors.$main-blue;
-                    margin-left: 8px;
+                    margin-left: 5px;
                 }
             }
         }
@@ -42,7 +50,7 @@
         align-items: center;
         margin-right: 3%;
         &__text{
-            font-size: 1.2rem;
+            font-size: 1rem;
             font-weight: 500;
             color: colors.$main-blue;
             text-align: right;
@@ -72,7 +80,19 @@
         justify-content: space-around;        
         .contact{
         justify-content: space-evenly;
-    }
+        &__item{
+            div{
+                p{
+                    font-size: fonts.$subtitle;
+                }
+            }
+            a{ 
+                p{
+                    font-size: fonts.$subtitle;
+                }
+            }
+        }
+        }
     }
     .footer .information .information__text{
         font-size: fonts.$text;
