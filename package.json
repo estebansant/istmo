@@ -1,0 +1,21 @@
+{
+  "name": "istmo",
+  "version": "1.0.0",
+  "description": "Website project for Istmo Consultores",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebansant/istmo.git"
+  },
+  "keywords": [],
+  "author": "Esteban Santiago <estebansant30@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebansant/istmo/issues"
+  },
+  "homepage": "https://github.com/estebansant/istmo#readme"
+}
