@@ -15,3 +15,20 @@ body{
     overflow-x: hidden;
     background: colors.$white;
 }
+::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: colors.$gray;
+}
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    background: colors.$main-blue;
+}
+::-webkit-scrollbar-thumb:hover{
+    transition: all .3s ease-out;
+    background: colors.$main-blue;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.5);
+}
