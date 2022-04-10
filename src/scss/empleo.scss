@@ -51,10 +51,32 @@ main{
         color: colors.$secondary-black;
         font-weight: 400;
         text-align: left;
+        margin-bottom: 30px;
         a{
             text-decoration: none;
         }
     }
+    &__subtitle{
+        font-size: fonts.$title;
+        color: colors.$main-blue;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .descargar{
+        width: 250px;
+        height: 45px;
+        background-color: colors.$main-blue;
+        color: colors.$white;
+        font-size: fonts.$subtitle;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 3px 4px 8px rgba(0,0,0,0.5)
+    }
+}
+.descargar:hover{
+    text-decoration: underline;
+    box-shadow: inset 0px 5px 10px rgba(14, 14, 14, 0.5);
+    cursor: pointer;
 }
 .content__text a:hover{
     text-decoration: underline;

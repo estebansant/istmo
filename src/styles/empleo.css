@@ -305,9 +305,32 @@ main {
   color: #1a1a1a;
   font-weight: 400;
   text-align: left;
+  margin-bottom: 30px;
 }
 .content__text a {
   text-decoration: none;
+}
+.content__subtitle {
+  font-size: 2rem;
+  color: #003968;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.content .descargar {
+  width: 250px;
+  height: 45px;
+  background-color: #003968;
+  color: #ffffff;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.descargar:hover {
+  text-decoration: underline;
+  box-shadow: inset 0px 5px 10px rgba(14, 14, 14, 0.5);
+  cursor: pointer;
 }
 
 .content__text a:hover {
