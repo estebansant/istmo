@@ -49,8 +49,9 @@ main{
     &__text{
         font-size: fonts.$text;
         color: colors.$secondary-black;
+        font-weight: 400;
         text-align: left;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
     &__list{
         list-style: disc;
@@ -59,25 +60,97 @@ main{
         li{
             font-size: fonts.$text;
             color: colors.$secondary-black;
+            font-weight: 400;
             margin-bottom: 5px;
         }
     }
     &__subtitle{
-        font-size: fonts.$subtitle;
+        font-size: fonts.$title;
         color: colors.$black;
+        font-weight: bold;
         margin-bottom: 15px;
     }
     &__list--ordered{
-        list-style: numbered;
         padding-left: 20px;
         .with__margin{
             font-size: fonts.$text;
             color: colors.$secondary-black;
+            font-weight: 400;
             margin-bottom: 15px;
         }
         .without__margin{
             font-size: fonts.$text;
             color: colors.$secondary-black;
+            font-weight: 400;
+        }
+    }
+}
+@media(min-width: 768px){
+    .banner{
+        height: 30vh;
+        &__image{
+            img{
+                object-position: 50% 30%;
+            }
+        }
+    }
+    .content{
+        max-width: 70%;
+        margin: 0 auto;
+    }
+}
+@media(min-width: 1024px) and(max-height: 900px){
+    .banner{
+        height: 45vh;
+        &__image{
+            img{
+                object-position: 50% 25%;
+            }
+        }
+    }
+}
+@media(min-width: 1400px){
+    .banner{
+        height: 45vh;
+        &__image{
+            img{
+                object-position: 50% 25%;
+            }
+        }
+    }
+    .content{
+        max-width: 60%;
+        &__title{
+            font-size: 3.4rem;
+        }
+        &__subtitle{
+            font-size: 2.4rem
+        }
+        &__text{
+            font-size: 1.8rem;
+        }
+        &__list{
+            li{
+                font-size: 1.8rem;
+            }
+        }
+        &__list--ordered{
+            .with__margin{
+                font-size: 1.8rem;
+            }
+            .without__margin{
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+@media(min-width: 2560px){
+    .banner{
+        height: 40vh;
+        &__image{
+            img{
+                object-position: 50% 27%;
+            }
         }
     }
 }

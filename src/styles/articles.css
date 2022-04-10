@@ -223,6 +223,11 @@ body {
     font-size: 1.6rem;
   }
 }
+@media (min-width: 768px) and (max-height: 800px) {
+  .footer {
+    height: 20vh;
+  }
+}
 @media (min-width: 1024px) {
   .footer {
     height: 20vh;
@@ -277,8 +282,9 @@ main {
 .content__text {
   font-size: 1.6rem;
   color: #1a1a1a;
+  font-weight: 400;
   text-align: left;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .content__list {
   list-style: disc;
@@ -288,25 +294,88 @@ main {
 .content__list li {
   font-size: 1.6rem;
   color: #1a1a1a;
+  font-weight: 400;
   margin-bottom: 5px;
 }
 .content__subtitle {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #000000;
+  font-weight: bold;
   margin-bottom: 15px;
 }
 .content__list--ordered {
-  list-style: numbered;
   padding-left: 20px;
 }
 .content__list--ordered .with__margin {
   font-size: 1.6rem;
   color: #1a1a1a;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 .content__list--ordered .without__margin {
   font-size: 1.6rem;
   color: #1a1a1a;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 30vh;
+  }
+  .banner__image img {
+    object-position: 50% 30%;
+  }
+
+  .content {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) and (max-height: 900px) {
+  .banner {
+    height: 45vh;
+  }
+  .banner__image img {
+    object-position: 50% 25%;
+  }
+}
+@media (min-width: 1400px) {
+  .banner {
+    height: 45vh;
+  }
+  .banner__image img {
+    object-position: 50% 25%;
+  }
+
+  .content {
+    max-width: 60%;
+  }
+  .content__title {
+    font-size: 3.4rem;
+  }
+  .content__subtitle {
+    font-size: 2.4rem;
+  }
+  .content__text {
+    font-size: 1.8rem;
+  }
+  .content__list li {
+    font-size: 1.8rem;
+  }
+  .content__list--ordered .with__margin {
+    font-size: 1.8rem;
+  }
+  .content__list--ordered .without__margin {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 2560px) {
+  .banner {
+    height: 40vh;
+  }
+  .banner__image img {
+    object-position: 50% 27%;
+  }
 }
 
 /*# sourceMappingURL=articles.css.map */
