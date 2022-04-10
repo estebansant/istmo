@@ -73,18 +73,17 @@ main{
         font-weight: bold;
         margin-bottom: 15px;
     }
-    &__list--ordered{
+    &__list--secondary{
+        list-style: disc;
         padding-left: 20px;
-        .with__margin{
+        li{
             font-size: fonts.$text;
             color: colors.$secondary-black;
             font-weight: 400;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
         .without__margin{
-            font-size: fonts.$text;
-            color: colors.$secondary-black;
-            font-weight: 400;
+            margin-bottom: 0px;
         }
     }
 }
@@ -93,7 +92,7 @@ main{
         height: 30vh;
         &__image{
             img{
-                object-position: 50% 30%;
+                object-position: 50% 65%;
             }
         }
     }
@@ -107,7 +106,7 @@ main{
         height: 45vh;
         &__image{
             img{
-                object-position: 50% 25%;
+                object-position: 50% 80%;
             }
         }
     }
@@ -117,7 +116,7 @@ main{
         height: 45vh;
         &__image{
             img{
-                object-position: 50% 25%;
+                object-position: 50% 80%;
             }
         }
     }
@@ -152,7 +151,7 @@ main{
         height: 40vh;
         &__image{
             img{
-                object-position: 50% 27%;
+                object-position: 50% 80%;
             }
         }
     }
