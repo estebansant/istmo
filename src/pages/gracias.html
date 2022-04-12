@@ -5,90 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/icons/logo_istmo_banner.svg">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/gracias.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Gracias!</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="header__container">
-            <div class="logo">
-                <a href="../../index.html">
-                    <img src="../assets/icons/logo_istmo.svg" alt="logo" />
-                </a>
-            </div>
-
-            <img src="../assets/icons/hamburger-menu.svg" alt="menu" class="menu" onclick="openMenu()"/>
-
-            <div class="nav" id="nav">
-                <img src="../assets/icons/x.svg" alt="close" class="x" onclick="closeMenu()"/>
-                <ul class="nav__list">
-                    <li class="nav__list--item">
-                        <a href="./consultoria.html">
-                            Consultoría
-                        </a>
-                    </li>
-                    <li class="nav__list--item">
-                        <a href="./desarrollo.html">
-                            Desarrollo
-                        </a>
-                    </li>
-                    <li class="nav__list--item">
-                        <a href="./investigacion.html" >
-                            Investigación
-                        </a>
-                    </li>
-                    <li class="nav__list--item">
-                        <a href="./rrhh.html">
-                            RRHH
-                        </a>
-                    </li>
-                    <li class="nav__list--item">
-                        <a href="./red-empleo.html">
-                            Red de empleo
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
     <main>
-        <h1 class="title">¡Gracias por tu mensaje!</h1>
-
+        <div class="container">
+            <picture>
+                <source media="(min-width: 2300px)" srcset="../assets/images/email_grande.png">
+                <source media="(min-width: 768px)" srcset="../assets/images/email_mediano.png">
+                <img srcset="../assets/images/email_reducido.png" alt="email">
+            </picture>
+            <h1 class="container__title">¡Gracias por tu mensaje!</h1>
+            <a href="../../index.html">
+                <button class="container__button">Ir a la página principal</button>
+            </a>
+        </div>
     </main>
-
-    <footer class="footer">
-
-        <ul class="contact">
-            <li class="contact__item">
-                <div>
-                    <img src="../assets/icons/telefono.svg" alt="telefono" class="telefono"/>
-                    <p>+54 2954 419949</p>
-                </div>
-            </li>
-            <li class="contact__item">
-                <a href="mailto:istmo@istmo.com.ar" target="_blank">
-                    <img src="../assets/icons/correo.svg" alt="correo" class="correo"/>
-                    <p>istmo@istmo.com.ar</p>
-                </a>
-            </li>
-            <li class="contact__item">
-                <a href="https://www.instagram.com/istmo.consultores/?hl=es-la" target="blank" rel="noopener noreferrer">
-                    <img src="../assets/icons/instagram.svg" alt="instagram" class="instagram"/>
-                    <p>Instagram</p>
-                </a>
-            </li>
-        </ul>
-
-        <section class="information">
-            <p class="information__text">ISTMO Consultores<br/><br/>Av. San Martin (este) 718<br/>Piso 1 OF 101. <br/>Galería Gemellus (L6300BBU)<br/>Santa Rosa, La Pampa.</p>
-        </section>
-    </footer>
-
-    <script src="../../index.js"></script>
-
 </body>
 </html>
