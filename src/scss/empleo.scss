@@ -62,7 +62,7 @@ main{
         font-weight: bold;
         margin-bottom: 15px;
     }
-    .descargar{
+    .download{
         width: 250px;
         height: 45px;
         background-color: colors.$main-blue;
@@ -73,7 +73,7 @@ main{
         box-shadow: 3px 4px 8px rgba(0,0,0,0.5)
     }
 }
-.descargar:hover{
+.download:hover{
     text-decoration: underline;
     box-shadow: inset 0px 5px 10px rgba(14, 14, 14, 0.5);
     cursor: pointer;
