@@ -1,0 +1,51 @@
+.whatsapp__icon{
+    position: fixed;
+    bottom: -8%;
+    right: 3%;
+    max-width: 60px;
+    min-height: 30vh;
+    a{
+        width: inherit;
+        height: inherit;
+        img{
+            max-width: 60px;
+            height: 60px;
+        }
+    }
+    &--message{
+        display: none;
+    }
+}
+.whatsapp_icon:hover{
+    cursor: pointer;
+}
+.whatsapp__icon:hover .whatsapp__icon--message{
+    display: inline;
+    position: absolute;
+    top: -55px;
+    left: -150px;
+    width: 180px;
+    height: 80px;
+}
+@media (min-width: 540px){
+    .whatsapp__icon{
+        min-height: 0vh;
+        bottom: 3%;
+    }
+}
+@media (min-width: 768px){
+    .whatsapp__icon{
+        max-width: 75px;
+        a{
+            img{
+                max-width: 75px;
+                height: 75px;
+            }
+        }
+    }
+}
+@media (min-width: 2560px){
+    .whatsapp__icon{
+        bottom: 9%;
+    }
+}
