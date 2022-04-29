@@ -45,6 +45,7 @@ body {
   height: 60px;
   background-color: #ececec;
   z-index: 100;
+  overflow-x: hidden;
 }
 .header__container {
   width: 100%;
