@@ -43,6 +43,7 @@ main{
         top: -60%;
         text-align: center;
         color: colors.$white;
+        text-shadow: 3px 0px 4px black;
         font-size: fonts.$subtitle;
     }
 }
@@ -149,6 +150,11 @@ main{
             img{
                 object-position: 50% 30%;
             }
+        }
+        &__subtitle{
+            font-size: fonts.$main-title;
+            text-align: left;
+            margin-left: 40px;
         }
     }
     .content .content__middle{
