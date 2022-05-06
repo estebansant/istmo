@@ -91,15 +91,15 @@ main{
     }
 }
 @media(min-width: 768px){
-    // .banner{
-    //     height: 40vh;
-    //     &__image{
-    //         img{
-    //             position: relative;
-    //             top: -10%;
-    //         }
-    //     }
-    // }
+    .banner{
+        height: 40vh;
+        &__image{
+            img{
+                position: relative;
+                top: -10%;
+            }
+        }
+    }
     .content{
         max-width: 70%;
         margin: 0 auto;
