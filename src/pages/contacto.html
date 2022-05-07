@@ -61,47 +61,61 @@
     </header>
 
     <main>
-        <h1 class="title">¡Contáctanos!</h1>
-        <p class="opening__text">Si tienes alguna duda, contáctanos sin compromiso. <br>
-            Puedes escribir tu mensaje en el formulario, llamar a nuestro número de teléfono, enviarnos un mensaje por WhatsApp, o venir a visitarnos a nuestras oficinas. <br><br>
-            ¡Te estamos esperando!
-        </p>
-        <section class="content">
+        <section class="banner__container">
+            <div class="banner">
+                <picture class="banner__image">
+                    <source media="(min-width: 2300px)" srcset="../assets/images/equipo/equipo_grande.jpg" />
+                    <source media="(min-width: 768px)" srcset="../assets/images/equipo/equipo_mediano.jpg" />
+                    <img srcset="../assets/images/equipo/equipo_reducido.jpg" alt="Equipo de Istmo" />
+                </picture>
+            </div>
+        </section>
+        
+        <section class="wrapper">
+            <h1 class="title">¡Contáctanos!</h1>
+            <p class="opening__text">Si tienes alguna duda, contáctanos sin compromiso. <br>
+                Puedes escribir tu mensaje en el formulario, llamar a nuestro número de teléfono, enviarnos un mensaje por WhatsApp, o venir a visitarnos a nuestras oficinas. <br><br>
+                ¡Te estamos esperando!
+            </p>
 
-            <section class="form">
-                <h2 class="form__subtitle">Mándanos un mesaje</h2>
-                <form action="https://formsubmit.co/istmo@istmo.com.ar" method="POST">
-                    <input type="hidden" name="_next" value="http://www.istmo.com.ar/gracias.html">
-                    <label for="email">
-                        <span>¿Cuál es tu email?</span>
-                        <input id="email" type="email" name="email" placeholder="Email">
-                    </label>
-                    <label for="name">
-                        <span>¿Cuál es tu nombre?</span>
-                        <input id="name" type="text" name="name" placeholder="Nombre" required>
-                    </label>
-                    <label for="message">
-                        <span>Déjanos tu mensaje</span>
-                        <textarea id="message" name="message" placeholder="Escriba su mensaje" required></textarea>
-                    </label>
-                    <button type="submit">Enviar</button>
-               </form>
-            </section>
-            
-            <section class="direction">
-                <h2 class="direction__subtitle">Dirección:</h2>
-                <p class="direction__text">Av. San Martin (este) 718<br>
-                    Piso 1 OF 101.<br>
-                    Galería Gemellus (L6300BBU)<br>
-                    Santa Rosa, La Pampa.
-                </p>
-                <h2 class="direction__subtitle">Teléfono:</h2>
-                <p class="direction__text">+54 2954 419949</p>
-                <div class="direction__map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.2214435947026!2d-64.28426168488804!3d-36.62105597998582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c2cda85fc628f9%3A0xe2397377789c4384!2sISTMO%20consultores!5e0!3m2!1sen!2sar!4v1649758629546!5m2!1sen!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+            <section class="content">
+
+                <section class="form">
+                    <h2 class="form__subtitle">Mándanos un mesaje</h2>
+                    <form action="https://formsubmit.co/istmo@istmo.com.ar" method="POST">
+                        <input type="hidden" name="_next" value="http://www.istmo.com.ar/gracias.html">
+                        <label for="email">
+                            <span>¿Cuál es tu email?</span>
+                            <input id="email" type="email" name="email" placeholder="Email">
+                        </label>
+                        <label for="name">
+                            <span>¿Cuál es tu nombre?</span>
+                            <input id="name" type="text" name="name" placeholder="Nombre" required>
+                        </label>
+                        <label for="message">
+                            <span>Déjanos tu mensaje</span>
+                            <textarea id="message" name="message" placeholder="Escriba su mensaje" required></textarea>
+                        </label>
+                        <button type="submit">Enviar</button>
+                </form>
+                </section>
+                
+                <section class="direction">
+                    <h2 class="direction__subtitle">Dirección:</h2>
+                    <p class="direction__text">Av. San Martin (este) 718<br>
+                        Piso 1 OF 101.<br>
+                        Galería Gemellus (L6300BBU)<br>
+                        Santa Rosa, La Pampa.
+                    </p>
+                    <h2 class="direction__subtitle">Teléfono:</h2>
+                    <p class="direction__text">+54 2954 419949</p>
+                    <div class="direction__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3202.2214435947026!2d-64.28426168488804!3d-36.62105597998582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c2cda85fc628f9%3A0xe2397377789c4384!2sISTMO%20consultores!5e0!3m2!1sen!2sar!4v1649758629546!5m2!1sen!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </section>
             </section>
         </section>
+        
 
         <div class="whatsapp__icon">
             <img class="whatsapp__icon--message" src="../assets/icons/mensaje.svg" alt="mandanos un mensaje">

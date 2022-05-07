@@ -89,21 +89,11 @@ main{
 @media(min-width: 1024px) and(max-height: 900px){
     .banner{
         height: 45vh;
-        &__image{
-            img{
-                object-position: 50% 25%;
-            }
-        }
     }
 }
 @media(min-width: 1400px){
     .banner{
         height: 45vh;
-        &__image{
-            img{
-                object-position: 50% 35%;
-            }
-        }
     }
     .content{
         max-width: 60%;
@@ -123,10 +113,5 @@ main{
 @media(min-width: 2560px){
     .banner{
         height: 40vh;
-        &__image{
-            img{
-                object-position: 50% 27%;
-            }
-        }
     }
 }
