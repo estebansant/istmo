@@ -204,6 +204,8 @@ main{
         display: flex;
         align-items: center;
         flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
         &--subtitle{
             font-size: fonts.$title;
             color: colors.$white;
