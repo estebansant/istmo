@@ -337,12 +337,11 @@ main {
 }
 
 .banner__container {
-  height: 100%;
   width: 100%;
 }
 
 .banner {
-  width: 100vw;
+  width: 100%;
   height: auto;
   overflow: hidden;
 }
@@ -418,13 +417,6 @@ main {
 }
 
 @media (min-width: 768px) {
-  .banner {
-    height: 40vh;
-  }
-  .banner__image img {
-    object-position: 50% 30%;
-  }
-
   .content {
     max-width: 70%;
     margin: 0 auto;
@@ -445,7 +437,7 @@ main {
     height: 50vh;
   }
   .banner__image img {
-    object-position: 50% 15%;
+    object-position: 50% 45%;
   }
 
   .content {
@@ -472,10 +464,10 @@ main {
 }
 @media (min-width: 2560px) {
   .banner {
-    height: 40vh;
+    height: 45vh;
   }
   .banner__image img {
-    object-position: 50% 20%;
+    object-position: 50% 80%;
   }
 }
 
