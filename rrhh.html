@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/assets/icons/logo_istmo_banner.png">
+    <link rel="stylesheet" href="./src/styles/rrhh.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>RRHH</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./src/assets/icons/logo_istmo.svg" alt="logo" />
+                </a>
+            </div>
+
+            <img src="./src/assets/icons/hamburger-menu.svg" alt="menu" class="menu" onclick="openMenu()"/>
+
+            <div class="nav" id="nav">
+                <img src="./src/assets/icons/x.svg" alt="close" class="x" onclick="closeMenu()"/>
+                <ul class="nav__list">
+                    <li class="nav__list--item__home">
+                        <a href="./index.html">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="./consultoria.html">
+                            Consultoría
+                        </a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="./desarrollo.html">
+                            Desarrollo
+                        </a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="./investigacion.html" >
+                            Investigación
+                        </a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="./rrhh.html">
+                            RRHH
+                        </a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="./red-empleo.html">
+                            Red de empleo
+                        </a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="./contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner__container">
+            <div class="banner">
+                <picture class="banner__image">
+                    <source media="(min-width: 2300px)" srcset="./src/assets/images/rrhh/rrhh_grande.jpg" />
+                    <source media="(min-width: 768px)" srcset="./src/assets/images/rrhh/rrhh_mediano.jpg" />
+                    <img srcset="./src/assets/images/rrhh/rrhh_reducido.jpg" alt="apreton de manos" />
+                </picture>
+            </div>
+        </section>
+
+        <section class="content">
+            <h1 class="content__title">RRHH</h1>
+
+            <p class="content__text">
+                En el área de Recursos Humanos desde la perspectiva de la sociología organizacional y laboral, ofrecemos Consultoría y Capacitación. En el marco del asesoramiento en temas de personal desde 1998 desarrollamos del Departamento de Selección de Personal, para brindar esa prestación específica. <br/><br/>
+                
+                <strong>Ofrecemos una amplia gama de servicios:</strong>
+            </p>
+
+            <ul class="content__list">
+                <li>Evaluación de perfil, de potencial y desarrollo de personal.</li>
+                <li>Impulsión de Equipos y Grupos de trabajo.</li>
+                <li>Consultoría de Carrera.</li>
+                <li class="without__margin">Head Hunting.</li>
+            </ul>
+
+            <h2 class="content__subtitle">Departamento de Selección de Personal:</h2>
+
+            <p class="content__text">
+                La standarización de procesos de búsqueda, reclutamiento y evaluación, profesionalizan, y hacen eficiente la tarea. <br/><br/>
+
+                En la actualidad brindamos un servicio que enfatiza la necesidad de un análisis profundo del perfil de búsqueda. Contamos con una base de datos de quienes en su búsqueda de empleo, han completado los primeros relevamientos solicitando permanecer en la base para demandas específicas en las que alcancen el perfil de búsqueda.<br/><br/>
+
+                Prestamos un servicio que se define en seis etapas. Cinco etapas externas (exclusivamente desarrolladas dentro de ISTMO consultores) y una etapa final de definición sobre los postulantes seleccionados que corresponde a la empresa contratante.<br/><br/>
+
+                El proceso selectivo incluye un estudio de los postulantes en una serie de dimensiones que abordan desde un relevamiento socio-ambiental, de historia laboral, capacidades adquiridas, hasta un estudio psicométrico y de factores de personalidad.
+            </p>
+            
+            <h2 class="content__subtitle">Ventajas y Beneficios</h2>
+
+            <ul class="content__list--secondary">
+                <li>Profesionalización del mecanismo de búsqueda y selección.</li>
+                <li>Terciarización de tareas de elevadas exigencias operativas y altos niveles de compromiso institucional.</li>
+                <li class="without__margin">Asesoramiento para la definición de perfiles requeridos y de optimización de la integración y evaluación de recurso humano.</li>
+            </ul>
+        </section>
+
+        <div class="whatsapp__icon">
+            <img class="whatsapp__icon--message" src="./src/assets/icons/mensaje.svg" alt="mandanos un mensaje">
+            <a href="https://wa.me/542954677330">
+                <img src="./src/assets/icons/whatsapp_icon.svg" alt="whatsapp_icon"/>
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer">
+
+        <ul class="contact">
+            <li class="contact__item">
+                <div>
+                    <img src="./src/assets/icons/telefono.svg" alt="telefono" class="telefono"/>
+                    <p>+54 2954 419949</p>
+                </div>
+            </li>
+            <li class="contact__item">
+                <a href="mailto:istmo@istmo.com.ar" target="_blank">
+                    <img src="./src/assets/icons/correo.svg" alt="correo" class="correo"/>
+                    <p>istmo@istmo.com.ar</p>
+                </a>
+            </li>
+            <li class="contact__item">
+                <a href="https://www.instagram.com/istmo.consultores/?hl=es-la" target="blank" rel="noopener noreferrer">
+                    <img src="./src/assets/icons/instagram.svg" alt="instagram" class="instagram"/>
+                    <p>Instagram</p>
+                </a>
+            </li>
+        </ul>
+
+        <section class="information">
+            <p class="information__text">ISTMO consultores<br/><br/>Av. San Martin (este) 718<br/>Piso 1 OF 101. <br/>Galería Gemellus (L6300BBU)<br/>Santa Rosa, La Pampa.</p>
+        </section>
+    </footer>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
